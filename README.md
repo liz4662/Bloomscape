@@ -6,25 +6,25 @@ Bloomscape is an interactive generative art project that blends physical interac
 Bloomscape/
 
 ├── src/
-'''├── main.cpp          # ESP32 touch sensor logic
+  ├── main.cpp          # ESP32 touch sensor logic
   
-'''├── display.py        # Pygame virtual garden
+  ├── display.py        # Pygame virtual garden
   
-'''├── plant.wav
+  ├── plant.wav
   
-'''├── water.mp3
+  ├── water.mp3
   
-'''├── cut.mp3
+  ├── cut.mp3
 
-├── platformio.ini
+  ├── platformio.ini
 
 ├── images/
-'''└── Bloomscape.png
+  └── Bloomscape.png
 
 
 # Demo
 
-[Watch Demo] (https://youtube.com/shorts/uhF6iDYh4nw?feature=share)
+[Watch Demo] (https://drive.google.com/file/d/131Odc4P_N-6u5oIl9VcpPsx-GMCDv8DC/view?usp=sharing)
 
 # How It Works
 - ESP32 capacitive touch sensors detect user interaction

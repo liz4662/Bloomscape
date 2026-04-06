@@ -76,9 +76,9 @@ Cut → removes flowers and adds them to bouquet
 The bouquet appears on the right side of the screen and grows as you collect flowers
 
 # Images
-![Bloomscape](Images/Bloomscape.png)
-![Bloomscape](Images/Bloomscape2.png)
-![Bloomscape](Images/Bloomscape3.png)
+![Bloomscape](images/Bloomscape.png)
+![Bloomscape](images/Bloomscape2.png)
+![Bloomscape](images/Bloomscape3.png)
 
 
 # Notes / Challenges

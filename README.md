@@ -5,14 +5,21 @@ Bloomscape is an interactive generative art project that blends physical interac
 # Project Structure
 Bloomscape/
 ├── src/
-│   ├── main.cpp          # ESP32 touch sensor logic
-│   ├── display.py        # Pygame virtual garden
-│   ├── plant.wav
-│   ├── water.mp3
-│   ├── cut.mp3
+
+  ├── main.cpp          # ESP32 touch sensor logic
+  
+  ├── display.py        # Pygame virtual garden
+  
+  ├── plant.wav
+  
+  ├── water.mp3
+  
+  ├── cut.mp3
+
 ├── platformio.ini
+
 ├── images/
-│   └── Bloomscape.png
+  └── Bloomscape.png
 
 
 # Demo

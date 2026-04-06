@@ -2,11 +2,22 @@
 
 Bloomscape is an interactive generative art project that blends physical interaction with a digital garden. Using an ESP32 capacitive touch interface, users can plant, water, and cut flowers in a virtual environment, building a bouquet through real time interaction.
 
+# Project Structure
+Bloomscape/
+├── src/
+│   ├── main.cpp          # ESP32 touch sensor logic
+│   ├── display.py        # Pygame virtual garden
+│   ├── plant.wav
+│   ├── water.mp3
+│   ├── cut.mp3
+├── platformio.ini
+├── images/
+│   └── Bloomscape.png
+
+
 # Demo
 
 [Watch Demo] (https://youtube.com/shorts/uhF6iDYh4nw?feature=share)
-
- # Visual
 
 # How It Works
 - ESP32 capacitive touch sensors detect user interaction
@@ -38,7 +49,13 @@ Optional props:
 - Pygame
 - pyserial
 - Arduino / PlatformIO for ESP32
-- 
+# ESP32 Setup (PlatformIO)
+1. Open the project in PlatformIO
+2. Connect your ESP32 via USB
+3. Upload firmware:
+pio run --target upload
+
+
 # Installation
 1. Clone the repo
 git clone https://github.com/liz4662/Bloomscape.git

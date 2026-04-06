@@ -86,9 +86,6 @@ The bouquet appears on the right side of the screen and grows as you collect flo
 - Wires placed too close together can cause false triggers
 - Threshold tuning and cooldown logic are necessary for stability
 - Limited ESP32 touch pins constrained hardware design
-# Technical Documentation
-
-👉 https://github.com/liz4662/Bloomscape
 
 # Summary
 

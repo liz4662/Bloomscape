@@ -51,12 +51,14 @@ If pip does not work:
 python3 -m pip install pygame pyserial --break-system-packages
 
 # Setup
-ESP32
-Upload your Arduino code to the ESP32
+Code can be found in the src folder.
+
+- ESP32
+Upload the Arduino code in main.cpp to the ESP32
 Connect touch pads to:
-Flower pads → T2, T4, T9, T5, etc.
-Mode pad → GPIO 27
-Reset pad → GPIO 33
+- Flower pads → T2, T4, T9, T5, etc.
+- Mode pad → GPIO 27
+- Reset pad → GPIO 33
 
 # Computer
 Find your serial port: ls /dev/cu.*
@@ -72,6 +74,12 @@ Plant → creates new flowers
 Water → grows flowers through stages
 Cut → removes flowers and adds them to bouquet
 The bouquet appears on the right side of the screen and grows as you collect flowers
+
+# Images
+![Bloomscape](Images/Bloomscape.png)
+![Bloomscape](Images/Bloomscape2.png)
+![Bloomscape](Images/Bloomscape3.png)
+
 
 # Notes / Challenges
 - Capacitive touch sensors are sensitive to noise and interference
